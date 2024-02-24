@@ -1,0 +1,355 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #F08B1D;
+    color: #444;
+    font: 15px/1.5 'Titillium Web', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.loading-bg body { background: #FFF; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Titillium Web', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    text-rendering: optimizelegibility;
+}
+
+h1 {
+    color: #4E443C;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2, h2 a {
+    color: #F14E32;
+}
+
+h3, h3 a {
+    color: #0388A6;
+}
+
+.hide{
+    display:none;
+}
+
+a {
+    color: #0388A6;
+}
+
+pre {
+    overflow-x: auto;
+    border: 1px solid #000;
+    background: #222;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.footer {
+    padding: 15px 15px 5px;
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.close-button {
+    display: inline-block;
+    padding: 5px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #ddd;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+    transition: all .25s ease-in;
+}
+
+.close-button.close-button-active {
+    color: #F08B1D;
+    cursor: pointer;
+    box-shadow: 0 1px #FDB924;
+}
+
+.close-button.close-button-active:hover,
+.close-button.close-button-active:active {
+    border-color: transparent;
+    background: #F08B1D;
+    color: #FFF;
+    box-shadow: none;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('../images/loader.gif') center no-repeat;
+
+}
+
+.ANIM01{
+    font-family: Titillium, sans-serif;
+}
+
+.ANIM01 .title{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    top: 6%;
+}
+
+.ANIM01 .steps{
+    position: absolute;
+    top: 40%;
+    width: 84%;
+    left: 12%;
+}
+
+.ANIM01 .steps span{
+    width:30%;
+    display: inline-block;
+    text-align: center;
+    color:rgb(66,89,103);
+}
+.ANIM02 .title,
+.ANIM03 .title,
+.ANIM04 .title{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    bottom: 2%;
+}
+
+.ANIM02 .title h1,
+.ANIM03 .title h1,
+.ANIM04 .title h1{
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 1.5em;
+    color:rgb(66,89,103);
+}
+
+.ANIM01 .title h1{
+    margin-bottom: 2px;
+    font-weight: 400;
+    color:rgb(66,89,103);
+    font-size: 2em;
+}
+
+.ANIM04 .subtitle,
+.ANIM03 .subtitle,
+.ANIM02 .subtitle{
+    color:rgb(127,146,160);
+    font-size: 1em;
+}
+.ANIM01 .subtitle {
+    color:rgb(127,146,160);
+    font-size: 1.3em;
+    margin-top: -13px;
+}
+
+.ADMIN00_static-clear {
+    background:#FFF;
+}
+
+.ADMIN00_static-wrapper {
+    width:552px;
+    height:472px;
+    background:#FFF;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.ADMIN00_static-wrapper
+.ADMIN00_static-title {
+    font-family: Titillium, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(65, 90, 104);
+    text-decoration: none;
+    font-style: normal;
+    word-wrap: break-word;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    line-height:1.2em;
+    margin: 1em;
+}
+
+.ADMIN00_static-wrapper
+.ADMIN00_static-icons {
+    text-align:center;
+    position:relative;
+    width:196px;
+    margin:0 auto;
+}
+
+.ADMIN00_static-wrapper
+.ADMIN00_static-icons
+.ADMIN00_static-cloud {
+    height: 114px;
+    background-image: url(../images/icn_tCloud.svg);
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.ADMIN00_static-wrapper
+.ADMIN00_static-icons
+.ADMIN00_static-circle {
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    border: 8px none rgb(205, 215, 221);
+    transform: translateZ(0px);
+    background-color: rgb(0, 172, 162);
+    background-size: 100% 100%;
+    position: absolute; top:65px;
+    left:140px;
+}
+
+.ADMIN00_static-wrapper
+.ADMIN00_static-icons
+.ADMIN00_static-arrow {
+    width: 45px;
+    height: 46px; 
+    transform-style: preserve-3d;
+    background-image: url(../images/icn_tArrowup.svg);
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    position:absolute; top:80px;
+    left:158px;
+}
+
+.ADMIN00_static-wrapper
+.ADMIN00_static-links {
+    text-align:center;
+    margin-top:5em;
+}
+
+.ADMIN00_static-wrapper
+.ADMIN00_static-links 
+.ADMIN00_static-trial  {
+    border-radius: 3px;
+    background-color: rgb(242, 141, 30);
+    text-decoration:none; color:#FFF;
+    font-size:18px;
+    padding:.5em 1em;
+}
+
+.ADMIN00_static-wrapper
+.ADMIN00_static-links 
+.ADMIN00_static-trial:hover  {
+    background-color: rgb(255, 134, 0);
+}
+
+
+.ADMIN00_static-wrapper
+.ADMIN00_static-links 
+.ADMIN00_static-learn {
+    font-family: Titillium, sans-serif;
+    display: block;
+    margin-top:1em;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(65, 90, 104);
+}
+
+.upgrade-plan{
+    background: white;
+    width:552px;
+    padding: 15px;
+}
+
+.upgrade-plan
+.stage_static-thumbnails{
+        width: 50%;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.upgrade-plan
+.stage_static-wrapper{
+    width: 50%;
+    float: left;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.upgrade-plan
+.stage_static-title{
+    font-size: 1.5em;
+}
+
+.upgrade-plan
+p{
+    color:gray;
+}
+
+
+.upgrade-plan
+.stage_static-button{
+    background-color: rgb(242, 141, 30);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.upgrade-plan
+.stage_static-button.secondary{
+    background-color: white;
+    border: solid 1px lightgray;
+    color: gray;
+}
+
+
+.upgrade-plan
+.stage_static-button:hover{
+     background-color: rgb(255, 134, 0);
+}
+
+.upgrade-plan
+.stage_static-button.secondary:hover{
+     background-color: white;
+    border: solid 1px darkgray;
+}
+
+.upgrade-plan
+.stage_static-links{
+    clear: both;
+    width: 100%;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.stage_static-thumbnails img {
+    display: block;
+    max-width: 100%;
+}
